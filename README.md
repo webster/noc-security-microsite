@@ -1,5 +1,6 @@
 # noc-security-microsite
 
+[![Build Status](https://travis-ci.org/webster/noc-security-microsite.svg)](https://travis-ci.org/webster/noc-security-microsite)
 
 This is a microsite with security/privacy tips for activists.
 
