@@ -20,13 +20,13 @@ $(".tip-container").isotope({
 });
 
 $("#device-selector-phone").change(function() {
-    var device_selectors = $("#device-selector-computer").val() + "," + $(this).val();
-    $(".tip-container").isotope({ filter: device_selectors });
+    var deviceSelectors = $("#device-selector-computer").val() + "," + $(this).val();
+    $(".tip-container").isotope({ filter: deviceSelectors });
 });
 
 $("#device-selector-computer").change(function() {
-    var device_selectors = $("#device-selector-phone").val() + "," + $(this).val();
-    $(".tip-container").isotope({ filter: device_selectors });
+    var deviceSelectors = $("#device-selector-phone").val() + "," + $(this).val();
+    $(".tip-container").isotope({ filter: deviceSelectors });
 });
 
 $(".tip a").click(function() {

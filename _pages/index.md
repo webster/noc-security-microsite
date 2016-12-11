@@ -27,9 +27,11 @@ title: Quick security and privacy fixes for activists
 
 <ol class="row tip-container">
     
-    <li class="tip large-6 medium-6 columns iphone android mac windows" data-video="3E8nf62nihw">
-        <h2><a href="#">Turn on <strong>two factor authentication</strong></a></h2>
-    </li>
+    {% for tip in site.data.tips %}
+        <li class="tip large-6 medium-6 columns {{ tip.apply }}" data-video="{{ tip.video }}">
+            <h2><a href="#">{{ tip.title }}</a></h2>
+        </li>
+    {% endfor %}
     
 </ol>
 

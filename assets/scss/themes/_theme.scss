@@ -2,14 +2,14 @@
 // Theme
 // --------------------------------------------------
 
-// Variables
+// VARIABLES
 
 $forest:            #22614F;
 $white:             #fff;
 $white-transp:      rgba(255, 255, 255, 0.5);
 $charcoal:          #2e3739;
 
-// Mix-ins
+// MIX-INS
 
 @mixin border($color) {
     border: 3px solid $color;
@@ -20,7 +20,7 @@ $charcoal:          #2e3739;
     border-radius: 5px;
 }
 
-// Main styles
+// MAIN STYLES
 
 body {
     background: $forest url(../img/bg-noc.jpg) no-repeat;
@@ -36,7 +36,15 @@ h1, h2, h3, h4, h5, h6, * {
     font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
 }
 
-// Header
+a {
+    color: $white-transp;
+    text-decoration: underline;
+    &:hover {
+        color: $white;
+    }
+}
+
+// GLOBAL HEADER
 
 header {
     background: none;
@@ -48,7 +56,7 @@ header {
     }
 }
 
-// Form elements
+// FORM ELEMENTS
 
 label, select {
     display: inline;
@@ -69,7 +77,7 @@ select {
     border-bottom: 3px dotted $white-transp;
 }
 
-// Modal
+// MODAL WINDOW
 
 .modal {
     width: 560px;
@@ -81,7 +89,7 @@ select {
     transform: translateY(-50%);
 }
 
-// Device selector
+// DEVICE SELECTOR
 
 .device-selector {
     @include rounded;
@@ -95,14 +103,13 @@ select {
     }
 }
 
-// Tips
+// TIPS
 
-ol {
+.tip-container {
     list-style-type: none;
 }
 
 .tip {
-    //@include border($white);
     margin-bottom: 25px;
     .number {
         font-weight: 700;
@@ -117,13 +124,24 @@ ol {
         line-height: 3em;
         display: inline-block;
         line-height: 1.3em;
+        text-decoration: none;
     }
     a {
         color: $white;
         border-bottom: 2px solid $white-transp;
+        text-decoration: none;
         &:hover {
             border-bottom: 2px solid $white;
         }
     }
+}
+
+// FOOTER 
+
+footer {
+    background: none;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
