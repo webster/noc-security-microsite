@@ -1,11 +1,11 @@
-var $             = require('gulp-load-plugins')();
-var browserSync   = require('browser-sync');
-var config        = require('../util/loadConfig').javascript;
-var gulp          = require('gulp');
-var isProduction  = require('../util/isProduction');
-var uglify        = require('gulp-uglify');
+var $             = require("gulp-load-plugins")();
+var browserSync   = require("browser-sync");
+var config        = require("../util/loadConfig").javascript;
+var gulp          = require("gulp");
+var isProduction  = require("../util/isProduction");
+var uglify        = require("gulp-uglify");
 
-gulp.task('javascript', function() {
+gulp.task("javascript", function() {
   browserSync.notify(config.notification);
 
   return gulp.src(config.src)
