@@ -1,6 +1,5 @@
 # noc-security-microsite
 
-[![Build Status](https://travis-ci.org/core77/jekyll-foundation.svg)](https://travis-ci.org/core77/jekyll-foundation)
 
 This is a microsite with security/privacy tips for activists.
 
@@ -11,6 +10,13 @@ Stack:
 - jQuery
 - Gulp
 - Bower
+
+Tested environments:
+- macOS 10.12, Chrome 55
+- macOS 10.12, Safari
+- macOS 10.12, Firefox
+- iPhone 7 Plus, iOS, Mobile Safari
+- LG Nexus 5, Android, Mobile Chrome
 
 To-Do:
 - Replace bad GIF logo with a transparent PNG or SVG
