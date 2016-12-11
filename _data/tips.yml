@@ -20,15 +20,32 @@
 
 - title: Turn on <strong>Bitlocker</strong> to protect files on your computer
   apply: windows
+  video: fETQyLG0qBI
 
 - title: Install <strong>Privacy Badger</strong> to stop websites from tracking you online
   apply: mac windows
+  video: 5ekf5kqujfU
 
 - title: Put <strong>tape</strong> over your webcam and install <strong>OverSight</strong>
   apply: mac
+  video: b5ma83ldthw
 
 - title: Call your bank and add a password to your account
   apply: all
+  video: DqJnWcDD8dU
 
 - title: Ask your cell phone carrier not to share your personal information
   apply: all
+  video: JqnBH15IloI
+  
+- title: Make sure your computer's <strong>file sharing</strong> settings are turned off
+  apply: mac
+  video: yPwi_CKU9gw
+  
+- title: Begin using a <strong>password manager</strong>
+  apply: all
+  video: UK3-867tzEs
+  
+- title: Install <strong>Spybot</strong> anti-malware software
+  apply: windows
+  video: ioP1OoBz-co

@@ -15,17 +15,17 @@ $(document).foundation();
 $(".tip-container").isotope({
   // options
   itemSelector: ".tip",
-  layoutMode: "fitRows",
-  filter: ".iphone, .mac"
+  layoutMode: "masonry",
+  filter: ".iphone, .mac, .all"
 });
 
 $("#device-selector-phone").change(function() {
-    var deviceSelectors = $("#device-selector-computer").val() + "," + $(this).val();
+    var deviceSelectors = $("#device-selector-computer").val() + ",.all," + $(this).val();
     $(".tip-container").isotope({ filter: deviceSelectors });
 });
 
 $("#device-selector-computer").change(function() {
-    var deviceSelectors = $("#device-selector-phone").val() + "," + $(this).val();
+    var deviceSelectors = $("#device-selector-phone").val() + ",.all," + $(this).val();
     $(".tip-container").isotope({ filter: deviceSelectors });
 });
 

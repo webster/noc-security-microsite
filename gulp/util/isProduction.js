@@ -1,4 +1,4 @@
-var argv          = require('yargs').argv;
+var argv          = require("yargs").argv;
 
 // Check for --production flag
 var isProduction = !!(argv.production);

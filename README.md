@@ -44,8 +44,13 @@ If that doesn't work:
 - Add Linux tips
 - Add Windows Mobile tips
 - Figure out how to communicate importance of tips
+- Communicate how long each tip will take
+- Add written details along with videos?
 - Tweet button for individual videos?
 - Consider making the tips a checklist with persistent storage (would need privacy policy)
 - Consider a splash screen style first page that asks what accounts the user has (e.g. Twitter, Facebook, etc.)
-- License/credits, external links for more information (EFF SSD, ACLU, LGBTQ resources)
+- License/credits
+- Further reading: external links for more information (EFF SSD, ACLU, LGBTQ resources)
 - Optimization
+- Escape link
+
