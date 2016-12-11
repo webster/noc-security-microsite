@@ -14,6 +14,7 @@ Stack:
 
 To-Do:
 - Replace bad GIF logo with a transparent PNG or SVG
+- Move tips to a yaml file for easier maintainability
 - Consider numbering the tips
 - Add Linux tips
 - Add Windows Mobile tips
