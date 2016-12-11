@@ -1,0 +1,12 @@
+{
+  "name": "noc-security",
+  "version": "0.5",
+  "description": "Quick security and privacy fixes for activists",
+  "license": "TBD",
+  "private": true,
+  "dependencies": {
+    "foundation-sites": "~6.2",
+    "motion-ui": "~1.2",
+    "isotope": "^3.0.1"
+  }
+}

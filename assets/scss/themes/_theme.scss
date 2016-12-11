@@ -1,0 +1,129 @@
+// --------------------------------------------------
+// Theme
+// --------------------------------------------------
+
+// Variables
+
+$forest:            #22614F;
+$white:             #fff;
+$white-transp:      rgba(255, 255, 255, 0.5);
+$charcoal:          #2e3739;
+
+// Mix-ins
+
+@mixin border($color) {
+    border: 3px solid $color;
+    border-radius: 5px;
+}
+
+@mixin rounded() {
+    border-radius: 5px;
+}
+
+// Main styles
+
+body {
+    background: $forest url(../img/bg-noc.jpg) no-repeat;
+    background-position: left center;
+    background-size: auto;
+    color: $white;
+    font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, * {
+    font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
+}
+
+// Header
+
+header {
+    background: none;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    .title {
+        line-height: 1.35em;
+        padding-right: 20%;
+    }
+}
+
+// Form elements
+
+label, select {
+    display: inline;
+}
+
+select {
+    color: $white;
+    width: auto;
+    text-align: center;
+    text-align-last: center;
+    border: none;
+    background: none;
+    border-radius: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 1em;
+    padding: 0 15px;
+    border-bottom: 3px dotted $white-transp;
+}
+
+// Modal
+
+.modal {
+    width: 560px;
+    height: 315px;
+    margin: 0 auto;
+    outline: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+// Device selector
+
+.device-selector {
+    @include rounded;
+    background: $charcoal;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 35px 0 20px 0;
+    font-size: 1.5em;
+    label {
+        display: none;
+    }
+}
+
+// Tips
+
+ol {
+    list-style-type: none;
+}
+
+.tip {
+    //@include border($white);
+    margin-bottom: 25px;
+    .number {
+        font-weight: 700;
+        padding: 5px 10px;
+        font-family: 'Inconsolata', fixed-width;
+        background: $white;
+        color: $forest;
+        margin-right: 15px;
+    }
+    h2 {
+        font-size: 1.5em;
+        line-height: 3em;
+        display: inline-block;
+        line-height: 1.3em;
+    }
+    a {
+        color: $white;
+        border-bottom: 2px solid $white-transp;
+        &:hover {
+            border-bottom: 2px solid $white;
+        }
+    }
+}
+
