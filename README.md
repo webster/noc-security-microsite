@@ -1,6 +1,7 @@
 # noc-security-microsite
 
 [![Build Status](https://travis-ci.org/webster/noc-security-microsite.svg)](https://travis-ci.org/webster/noc-security-microsite)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/02c8801ea713468db543d6a81cac5379)](https://www.codacy.com/app/tony_3/noc-security-microsite?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=webster/noc-security-microsite&amp;utm_campaign=Badge_Grade)
 
 This is a microsite with security/privacy tips for activists.
 
