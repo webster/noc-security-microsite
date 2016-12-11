@@ -1,0 +1,34 @@
+- title: Turn on <strong>two-factor authentication</strong> to protect your accounts
+  apply: all
+  video: 3E8nf62nihw
+  
+- title: Turn off <strong>search and location history</strong>
+  apply: all
+  video: 4RWcWSN4HhI
+  
+- title: Use <strong>Signal</strong> to have <strong>secure text conversations</strong>
+  apply: iphone android mac windows
+  video: ScMzIvxBSi4
+
+- title: Use <strong>passcodes</strong> instead of fingerprints
+  apply: iphone android
+  video: BzMLA8YIgG0
+
+- title: Turn on <strong>FileVault</strong> to protect files on your computer
+  apply: mac
+  video: CMNry4PE93Y
+
+- title: Turn on <strong>Bitlocker</strong> to protect files on your computer
+  apply: windows
+
+- title: Install <strong>Privacy Badger</strong> to stop websites from tracking you online
+  apply: mac windows
+
+- title: Put <strong>tape</strong> over your webcam and install <strong>OverSight</strong>
+  apply: mac
+
+- title: Call your bank and add a password to your account
+  apply: all
+
+- title: Ask your cell phone carrier not to share your personal information
+  apply: all

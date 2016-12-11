@@ -21,5 +21,6 @@ To-Do:
 - Figure out how to communicate importance of tips
 - Tweet button for individual videos?
 - Consider making the tips a checklist with persistent storage (would need privacy policy)
-- License/credits
+- Consider a splash screen style first page that asks what accounts the user has (e.g. Twitter, Facebook, etc.)
+- License/credits, external links for more information (EFF SSD, ACLU, LGBTQ resources)
 - Optimization
